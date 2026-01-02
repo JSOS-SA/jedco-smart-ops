@@ -1668,3 +1668,54 @@ body {
     color: var(--primary);
     opacity: 0.7;
 }
+
+/* ═══════════════ مربعات قسم المطور - متوافق مع جميع المتصفحات ═══════════════ */
+.dev-spots-container {
+    display: -webkit-box;      /* Safari 3.1-6, iOS 6-, Android 2.1-4.3 */
+    display: -webkit-flex;     /* Safari 6.1+, iOS 7+, Chrome 21-28 */
+    display: -ms-flexbox;      /* IE 10 */
+    display: flex;
+    -webkit-box-pack: center;  /* Safari 3.1-6 */
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;     /* IE 10 */
+    justify-content: center;
+    -webkit-box-align: center; /* Safari 3.1-6 */
+    -webkit-align-items: center;
+    -ms-flex-align: center;    /* IE 10 */
+    align-items: center;
+    padding: 20px;
+}
+
+.dev-spot {
+    width: 55px;
+    height: 55px;
+    background: #2a2a2a;
+    background: var(--bg-input, #2a2a2a); /* fallback للمتصفحات القديمة */
+    border: 3px solid #444;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin: 0 5px; /* بديل gap للتوافق الكامل */
+}
+
+/* ═══════════════ التجاوب - تابلت ═══════════════ */
+@media (max-width: 768px) {
+    .dev-spots-container {
+        padding: 15px;
+    }
+    .dev-spot {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* ═══════════════ التجاوب - جوال ═══════════════ */
+@media (max-width: 480px) {
+    .dev-spots-container {
+        padding: 10px;
+    }
+    .dev-spot {
+        width: 45px;
+        height: 45px;
+        margin: 0 4px;
+    }
+}
