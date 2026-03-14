@@ -1,4 +1,4 @@
-# JEDCO SMART OPERATIONS SYSTEM
+# SMART OPERATIONS SYSTEM
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/status-production-green)
 ![License](https://img.shields.io/badge/license-proprietary-red)
 
-**نظام إدارة عمليات الساحات الخارجية والمواصلات**
+**نظام إدارة عمليات الساحات الخارجية **
 
 [عرض الموقع](https://ps5mkh911-jpg.github.io/jedco-smart-ops/) | [الإبلاغ عن مشكلة](../../issues)
 
@@ -40,7 +40,7 @@
 ---
 
 
-- مبادرة من موظف عمليات الساحات الخاريجة والمواصلات
+- مبادرة 
 - للتواصل 
 - 00966557380189
 ---
